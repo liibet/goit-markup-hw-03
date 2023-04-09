@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
+
+:root {
+    --hover-color: #2196f3;
+    --text-color: #212121;
+    --text-description: #757575;
+    --banner-color: #2f303a;
+    --white: #ffffff;
+    --white-opacity: #ffffff99;
+}
+
+body {
+    --text-color: #212121;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header */
+
+.logo {
+    color: var(--hover-color);
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-decoration: none;
+}
+
+.navbar_menu .page:hover,
+.navbar_menu .page:focus-visible,
+.navbar_menu .page.current,
+.lista_contactos .item:hover,
+.lista_contactos .item:focus {
+    color: var(--hover-color);
+}
+
+.navbar_menu li,
+.lista_contactos li {
+    font-weight: 500;
+    line-height: 1;
+}
+
+.navbar_menu li a {
+    color: var(--text-color);
+}
+
+.lista_contactos li a {
+    color: var(--text-description);
+}
+
+.banner {
+    background-color: var(--banner-color);
+}
+
+.banner_title {
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: var(--white);
+}
+
+.btn_servicio {
+    background-color: var(--hover-color);
+    color: var(--white);
+}
+
+.lista_botones button,
+.btn_servicio {
+    cursor: pointer;
+}
+
+.filtros .lista_botones ol button:hover,
+.filtros .lista_botones ol button.current {
+    color: var(--white);
+    background-color: var(--hover-color);
+}
+
+/* bady*/
+.descripcion_caracteristicas,
+.trabajo {
+    color: var(--text-description);
+}
+
+/* footer */
+
+footer {
+    background-color: var(--banner-color);
+}
+
+.info_empresa p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.68;
+}
+
+.informacion_empresa,
+.descripcion_redes {
+    color: var(--white);
+}
+
+.descripcion_empresa {
+    color: var(--white);
+}
+
+.correo_empresa,
+.telefono_empresa {
+    color: var(--white-opacity);
+}
